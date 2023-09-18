@@ -9,14 +9,13 @@ dice.addEventListener("click", function(){
 });
 
 function showQuote() {
-    fetch("https://api.adviceslip.com/advice")
+    fetch("https://api.adviceslip.com/adviceadviceadviceadviceadviceadviceadviceadviceadviceadviceadviceadvice")
     .then(response => response.json())
     .then((data) => data.slip)
     .then((data) => {
         adviceNum.textContent = data.id;
         adviceText.textContent = data.advice;
-    })
-    .catch((error) => {
-        alert(`Error ${error}`);
-    })
-}
+DrDrDrDrDrDrDrDr
+rDrDrDrDrDrDrD
+DrDrDrDrDrDDrDrDrDrDrDrD
+rDrrDrrDrrDrrDrrDrrDrrDrrDrrDrrDrrDrrDrrDrrDrrDr
